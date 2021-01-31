@@ -1,0 +1,1754 @@
+{
+  "Iron Ore": [],
+  "Copper Ore": [],
+  "Stone Ore": [],
+  "Coal Ore": [],
+  "Silicon Ore": [
+    {
+      "producer": [
+        "Smelting Facility"
+      ],
+      "in": [
+        {
+          "name": "Stone Ore",
+          "num": 10
+        }
+      ],
+      "out": [
+        {
+          "name": "Silicon Ore",
+          "num": 1
+        }
+      ]
+    }
+  ],
+  "Titanium Ore": [],
+  "Water": [],
+  "Crude Oil": [],
+  "Hydrogen": [
+    {
+      "producer": [
+        "Refining Facility"
+      ],
+      "in": [
+        {
+          "name": "Crude Oil",
+          "num": 2
+        }
+      ],
+      "out": [
+        {
+          "name": "Hydrogen",
+          "num": 1
+        },
+        {
+          "name": "Refined Oil",
+          "num": 2
+        }
+      ]
+    },
+    {
+      "producer": [
+        "Refining Facility"
+      ],
+      "in": [
+        {
+          "name": "Fire Ice",
+          "num": 2
+        }
+      ],
+      "out": [
+        {
+          "name": "Graphene",
+          "num": 2
+        },
+        {
+          "name": "Hydrogen",
+          "num": 1
+        }
+      ]
+    },
+    {
+      "producer": [
+        "Refining Facility"
+      ],
+      "in": [
+        {
+          "name": "Refined Oil",
+          "num": 1
+        },
+        {
+          "name": "Hydrogen",
+          "num": 2
+        }
+      ],
+      "out": [
+        {
+          "name": "Hydrogen",
+          "num": 3
+        },
+        {
+          "name": "Energetic Graphite",
+          "num": 1
+        }
+      ]
+    },
+    {
+      "producer": [
+        "Refining Facility"
+      ],
+      "in": [
+        {
+          "name": "Critical Photon",
+          "num": 2
+        }
+      ],
+      "out": [
+        {
+          "name": "Antimatter",
+          "num": 2
+        },
+        {
+          "name": "Hydrogen",
+          "num": 2
+        }
+      ]
+    }
+  ],
+  "Deuterium": [
+    {
+      "producer": [
+        "Particle Collider",
+        "Fractionator"
+      ],
+      "in": [
+        {
+          "name": "Hydrogen",
+          "num": 10
+        }
+      ],
+      "out": [
+        {
+          "name": "Deuterium",
+          "num": 5
+        }
+      ]
+    },
+    {
+      "producer": [
+        "Particle Collider",
+        "Fractionator"
+      ],
+      "in": [
+        {
+          "name": "Hydrogen",
+          "num": 1
+        }
+      ],
+      "out": [
+        {
+          "name": "Deuterium",
+          "num": 1
+        }
+      ]
+    }
+  ],
+  "Antimatter": [
+    {
+      "producer": [
+        "Particle Collider"
+      ],
+      "in": [
+        {
+          "name": "Critical Photon",
+          "num": 2
+        }
+      ],
+      "out": [
+        {
+          "name": "Antimatter",
+          "num": 2
+        },
+        {
+          "name": "Hydrogen",
+          "num": 2
+        }
+      ]
+    }
+  ],
+  "Kimberlite Ore": [],
+  "Iron Ingot": [
+    {
+      "producer": [
+        "Smelting Facility"
+      ],
+      "in": [
+        {
+          "name": "Iron Ore",
+          "num": 1
+        }
+      ],
+      "out": [
+        {
+          "name": "Iron Ingot",
+          "num": 1
+        }
+      ]
+    }
+  ],
+  "Copper Ingot": [
+    {
+      "producer": [
+        "Smelting Facility"
+      ],
+      "in": [
+        {
+          "name": "Copper Ore",
+          "num": 1
+        }
+      ],
+      "out": [
+        {
+          "name": "Copper Ingot",
+          "num": 1
+        }
+      ]
+    }
+  ],
+  "Stone": [
+    {
+      "producer": [
+        "Smelting Facility"
+      ],
+      "in": [
+        {
+          "name": "Stone Ore",
+          "num": 1
+        }
+      ],
+      "out": [
+        {
+          "name": "Stone",
+          "num": 1
+        }
+      ]
+    }
+  ],
+  "Energetic Graphite": [
+    {
+      "producer": [
+        "Smelting Facility"
+      ],
+      "in": [
+        {
+          "name": "Coal Ore",
+          "num": 2
+        }
+      ],
+      "out": [
+        {
+          "name": "Energetic Graphite",
+          "num": 1
+        }
+      ]
+    },
+    {
+      "producer": [
+        "Smelting Facility"
+      ],
+      "in": [
+        {
+          "name": "Refined Oil",
+          "num": 1
+        },
+        {
+          "name": "Hydrogen",
+          "num": 2
+        }
+      ],
+      "out": [
+        {
+          "name": "Energetic Graphite",
+          "num": 1
+        },
+        {
+          "name": "Hydrogen",
+          "num": 3
+        }
+      ]
+    }
+  ],
+  "High-Purity Silicon": [
+    {
+      "producer": [
+        "Smelting Facility"
+      ],
+      "in": [
+        {
+          "name": "Silicon Ore",
+          "num": 2
+        }
+      ],
+      "out": [
+        {
+          "name": "High-Purity Silicon",
+          "num": 1
+        }
+      ]
+    }
+  ],
+  "Titanium Ingot": [
+    {
+      "producer": [
+        "Smelting Facility"
+      ],
+      "in": [
+        {
+          "name": "Titanium Ore",
+          "num": 2
+        }
+      ],
+      "out": [
+        {
+          "name": "Titanium Ingot",
+          "num": 1
+        }
+      ]
+    }
+  ],
+  "Sulfuric Acid": [
+    {
+      "producer": [
+        "Chemical Facility"
+      ],
+      "in": [
+        {
+          "name": "Refined Oil",
+          "num": 6
+        },
+        {
+          "name": "Stone Ore",
+          "num": 8
+        },
+        {
+          "name": "Water",
+          "num": 4
+        }
+      ],
+      "out": [
+        {
+          "name": "Sulfuric Acid",
+          "num": 4
+        }
+      ]
+    }
+  ],
+  "Refined Oil": [
+    {
+      "producer": [],
+      "in": [
+        {
+          "name": "Crude Oil",
+          "num": 2
+        }
+      ],
+      "out": [
+        {
+          "name": "Hydrogen",
+          "num": 1
+        },
+        {
+          "name": "Refined Oil",
+          "num": 2
+        }
+      ]
+    }
+  ],
+  "Hydrogen Fuel Rod": [
+    {
+      "producer": [
+        "Assembler"
+      ],
+      "in": [
+        {
+          "name": "Titanium Ingot",
+          "num": 1
+        },
+        {
+          "name": "Hydrogen",
+          "num": 5
+        }
+      ],
+      "out": [
+        {
+          "name": "Hydrogen Fuel Rod",
+          "num": 1
+        }
+      ]
+    }
+  ],
+  "Deuteron Fuel Rod": [
+    {
+      "producer": [
+        "Assembler"
+      ],
+      "in": [
+        {
+          "name": "Titanium Alloy",
+          "num": 1
+        },
+        {
+          "name": "Deuterium",
+          "num": 10
+        },
+        {
+          "name": "Super-Magnetic Ring",
+          "num": 1
+        }
+      ],
+      "out": [
+        {
+          "name": "Deuteron Fuel Rod",
+          "num": 1
+        }
+      ]
+    }
+  ],
+  "Antimatter Fuel Rod": [
+    {
+      "producer": [
+        "Assembler"
+      ],
+      "in": [
+        {
+          "name": "Antimatter",
+          "num": 10
+        },
+        {
+          "name": "Hydrogen",
+          "num": 10
+        },
+        {
+          "name": "Annihilation Constraint Sphere",
+          "num": 1
+        },
+        {
+          "name": "Titanium Alloy",
+          "num": 1
+        }
+      ],
+      "out": [
+        {
+          "name": "Antimatter Fuel Rod",
+          "num": 1
+        }
+      ]
+    }
+  ],
+  "Fractal Silicon": [],
+  "Magnet": [
+    {
+      "producer": [
+        "Smelting Facility"
+      ],
+      "in": [
+        {
+          "name": "Iron Ore",
+          "num": 1
+        }
+      ],
+      "out": [
+        {
+          "name": "Magnet",
+          "num": 1
+        }
+      ]
+    }
+  ],
+  "Magnetic Coil": [
+    {
+      "producer": [
+        "Assembler"
+      ],
+      "in": [
+        {
+          "name": "Magnet",
+          "num": 2
+        },
+        {
+          "name": "Copper Ingot",
+          "num": 1
+        }
+      ],
+      "out": [
+        {
+          "name": "Magnetic Coil",
+          "num": 2
+        }
+      ]
+    }
+  ],
+  "Glass": [
+    {
+      "producer": [],
+      "in": [
+        {
+          "name": "Stone Ore",
+          "num": 2
+        }
+      ],
+      "out": [
+        {
+          "name": "Glass",
+          "num": 1
+        }
+      ]
+    }
+  ],
+  "Diamond": [
+    {
+      "producer": [
+        "Smelting Facility"
+      ],
+      "in": [
+        {
+          "name": "Energetic Graphite",
+          "num": 1
+        }
+      ],
+      "out": [
+        {
+          "name": "Diamond",
+          "num": 1
+        }
+      ]
+    },
+    {
+      "producer": [
+        "Smelting Facility"
+      ],
+      "in": [
+        {
+          "name": "Kimberlite Ore",
+          "num": 1
+        }
+      ],
+      "out": [
+        {
+          "name": "Diamond",
+          "num": 1
+        }
+      ]
+    }
+  ],
+  "Crystal Silicon": [
+    {
+      "producer": [
+        "Smelting Facility"
+      ],
+      "in": [
+        {
+          "name": "High-Purity Silicon",
+          "num": 1
+        }
+      ],
+      "out": [
+        {
+          "name": "Crystal Silicon",
+          "num": 1
+        }
+      ]
+    },
+    {
+      "producer": [
+        "Smelting Facility"
+      ],
+      "in": [
+        {
+          "name": "Fractal Silicon",
+          "num": 1
+        }
+      ],
+      "out": [
+        {
+          "name": "Crystal Silicon",
+          "num": 1
+        }
+      ]
+    }
+  ],
+  "Titanium Alloy": [
+    {
+      "producer": [],
+      "in": [
+        {
+          "name": "Titanium Ingot",
+          "num": 4
+        },
+        {
+          "name": "Steel",
+          "num": 4
+        },
+        {
+          "name": "Sulfuric Acid",
+          "num": 8
+        }
+      ],
+      "out": [
+        {
+          "name": "Titanium Alloy",
+          "num": 4
+        }
+      ]
+    }
+  ],
+  "Fire Ice": [],
+  "Plastic": [
+    {
+      "producer": [
+        "Chemical Facility"
+      ],
+      "in": [
+        {
+          "name": "Refined Oil",
+          "num": 2
+        },
+        {
+          "name": "Energetic Graphite",
+          "num": 1
+        }
+      ],
+      "out": [
+        {
+          "name": "Plastic",
+          "num": 1
+        }
+      ]
+    }
+  ],
+  "Organic Crystal": [
+    {
+      "producer": [
+        "Chemical Facility"
+      ],
+      "in": [
+        {
+          "name": "Plastic",
+          "num": 2
+        },
+        {
+          "name": "Refined Oil",
+          "num": 1
+        },
+        {
+          "name": "Water",
+          "num": 1
+        }
+      ],
+      "out": [
+        {
+          "name": "Organic Crystal",
+          "num": 1
+        }
+      ]
+    },
+    {
+      "producer": [
+        "Chemical Facility"
+      ],
+      "in": [
+        {
+          "name": "Log",
+          "num": 20
+        },
+        {
+          "name": "Plant Fuel",
+          "num": 30
+        },
+        {
+          "name": "Water",
+          "num": 10
+        }
+      ],
+      "out": [
+        {
+          "name": "Organic Crystal",
+          "num": 1
+        }
+      ]
+    }
+  ],
+  "Graphene": [
+    {
+      "producer": [
+        "Chemical Facility"
+      ],
+      "in": [
+        {
+          "name": "Energetic Graphite",
+          "num": 3
+        },
+        {
+          "name": "Sulfuric Acid",
+          "num": 1
+        }
+      ],
+      "out": [
+        {
+          "name": "Graphene",
+          "num": 2
+        }
+      ]
+    },
+    {
+      "producer": [
+        "Chemical Facility"
+      ],
+      "in": [
+        {
+          "name": "Fire Ice",
+          "num": 2
+        }
+      ],
+      "out": [
+        {
+          "name": "Graphene",
+          "num": 2
+        },
+        {
+          "name": "Hydrogen",
+          "num": 1
+        }
+      ]
+    }
+  ],
+  "Thruster": [
+    {
+      "producer": [
+        "Assembler"
+      ],
+      "in": [
+        {
+          "name": "Steel",
+          "num": 2
+        },
+        {
+          "name": "Copper Ingot",
+          "num": 3
+        }
+      ],
+      "out": [
+        {
+          "name": "Thruster",
+          "num": 1
+        }
+      ]
+    }
+  ],
+  "Optical Grating Crystal": [],
+  "Steel": [
+    {
+      "producer": [
+        "Smelting Facility"
+      ],
+      "in": [
+        {
+          "name": "Iron Ingot",
+          "num": 3
+        }
+      ],
+      "out": [
+        {
+          "name": "Steel",
+          "num": 1
+        }
+      ]
+    }
+  ],
+  "Circuit Board": [
+    {
+      "producer": [
+        "Assembler"
+      ],
+      "in": [
+        {
+          "name": "Iron Ingot",
+          "num": 2
+        },
+        {
+          "name": "Copper Ingot",
+          "num": 1
+        }
+      ],
+      "out": [
+        {
+          "name": "Circuit Board",
+          "num": 2
+        }
+      ]
+    }
+  ],
+  "Prism": [
+    {
+      "producer": [
+        "Assembler"
+      ],
+      "in": [
+        {
+          "name": "Glass",
+          "num": 3
+        }
+      ],
+      "out": [
+        {
+          "name": "Prism",
+          "num": 2
+        }
+      ]
+    }
+  ],
+  "Electric Motor": [
+    {
+      "producer": [
+        "Assembler"
+      ],
+      "in": [
+        {
+          "name": "Iron Ingot",
+          "num": 2
+        },
+        {
+          "name": "Gear",
+          "num": 1
+        },
+        {
+          "name": "Magnetic Coil",
+          "num": 1
+        }
+      ],
+      "out": [
+        {
+          "name": "Electric Motor",
+          "num": 1
+        }
+      ]
+    }
+  ],
+  "Microcrystalline Component": [
+    {
+      "producer": [
+        "Assembler"
+      ],
+      "in": [
+        {
+          "name": "High-Purity Silicon",
+          "num": 2
+        },
+        {
+          "name": "Copper Ingot",
+          "num": 1
+        }
+      ],
+      "out": [
+        {
+          "name": "Microcrystalline Component",
+          "num": 1
+        }
+      ]
+    }
+  ],
+  "Casimir Crystal": [
+    {
+      "producer": [
+        "Assembler"
+      ],
+      "in": [
+        {
+          "name": "Titanium Crystal",
+          "num": 1
+        },
+        {
+          "name": "Graphene",
+          "num": 2
+        },
+        {
+          "name": "Hydrogen",
+          "num": 12
+        }
+      ],
+      "out": [
+        {
+          "name": "Casimir Crystal",
+          "num": 1
+        }
+      ]
+    },
+    {
+      "producer": [
+        "Assembler"
+      ],
+      "in": [
+        {
+          "name": "Optical Grating Crystal",
+          "num": 6
+        },
+        {
+          "name": "Graphene",
+          "num": 2
+        },
+        {
+          "name": "Hydrogen",
+          "num": 12
+        }
+      ],
+      "out": [
+        {
+          "name": "Casimir Crystal",
+          "num": 1
+        }
+      ]
+    }
+  ],
+  "Strange Matter": [
+    {
+      "producer": [
+        "Particle Collider"
+      ],
+      "in": [
+        {
+          "name": "Particle Container",
+          "num": 2
+        },
+        {
+          "name": "Iron Ingot",
+          "num": 2
+        },
+        {
+          "name": "Deuterium",
+          "num": 10
+        }
+      ],
+      "out": [
+        {
+          "name": "Strange Matter",
+          "num": 1
+        }
+      ]
+    }
+  ],
+  "Titanium Crystal": [
+    {
+      "producer": [
+        "Assembler"
+      ],
+      "in": [
+        {
+          "name": "Organic Crystal",
+          "num": 1
+        },
+        {
+          "name": "Titanium Ingot",
+          "num": 3
+        }
+      ],
+      "out": [
+        {
+          "name": "Titanium Crystal",
+          "num": 1
+        }
+      ]
+    }
+  ],
+  "Carbon Nanotube": [
+    {
+      "producer": [
+        "Chemical Facility"
+      ],
+      "in": [
+        {
+          "name": "Graphene",
+          "num": 3
+        },
+        {
+          "name": "Titanium Ingot",
+          "num": 1
+        }
+      ],
+      "out": [
+        {
+          "name": "Carbon Nanotube",
+          "num": 2
+        }
+      ]
+    },
+    {
+      "producer": [
+        "Chemical Facility"
+      ],
+      "in": [
+        {
+          "name": "Spiniform Stalagmite Crystal",
+          "num": 2
+        }
+      ],
+      "out": [
+        {
+          "name": "Carbon Nanotube",
+          "num": 2
+        }
+      ]
+    }
+  ],
+  "Reinforced Thruster": [
+    {
+      "producer": [
+        "Assembler"
+      ],
+      "in": [
+        {
+          "name": "Titanium Alloy",
+          "num": 5
+        },
+        {
+          "name": "Electromagnetic Turbine",
+          "num": 5
+        }
+      ],
+      "out": [
+        {
+          "name": "Reinforced Thruster",
+          "num": 1
+        }
+      ]
+    }
+  ],
+  "Spiniform Stalagmite Crystal": [],
+  "Gear": [
+    {
+      "producer": [
+        "Assembler"
+      ],
+      "in": [
+        {
+          "name": "Iron Ingot",
+          "num": 1
+        }
+      ],
+      "out": [
+        {
+          "name": "Gear",
+          "num": 1
+        }
+      ]
+    }
+  ],
+  "Plasma Exciter": [
+    {
+      "producer": [
+        "Assembler"
+      ],
+      "in": [
+        {
+          "name": "Magnetic Coil",
+          "num": 4
+        },
+        {
+          "name": "Prism",
+          "num": 2
+        }
+      ],
+      "out": [
+        {
+          "name": "Plasma Exciter",
+          "num": 1
+        }
+      ]
+    }
+  ],
+  "Photon Combiner": [
+    {
+      "producer": [
+        "Assembler"
+      ],
+      "in": [
+        {
+          "name": "Prism",
+          "num": 2
+        },
+        {
+          "name": "Circuit Board",
+          "num": 1
+        }
+      ],
+      "out": [
+        {
+          "name": "Photon Combiner",
+          "num": 1
+        }
+      ]
+    },
+    {
+      "producer": [
+        "Assembler"
+      ],
+      "in": [
+        {
+          "name": "Optical Grating Crystal",
+          "num": 1
+        },
+        {
+          "name": "Circuit Board",
+          "num": 1
+        }
+      ],
+      "out": [
+        {
+          "name": "Photon Combiner",
+          "num": 1
+        }
+      ]
+    }
+  ],
+  "Electromagnetic Turbine": [
+    {
+      "producer": [
+        "Assembler"
+      ],
+      "in": [
+        {
+          "name": "Electric Motor",
+          "num": 2
+        },
+        {
+          "name": "Magnetic Coil",
+          "num": 2
+        }
+      ],
+      "out": [
+        {
+          "name": "Electromagnetic Turbine",
+          "num": 1
+        }
+      ]
+    }
+  ],
+  "Processor": [
+    {
+      "producer": [
+        "Assembler"
+      ],
+      "in": [
+        {
+          "name": "Circuit Board",
+          "num": 2
+        },
+        {
+          "name": "Microcrystalline Component",
+          "num": 2
+        }
+      ],
+      "out": [
+        {
+          "name": "Processor",
+          "num": 1
+        }
+      ]
+    }
+  ],
+  "Annihilation Constraint Sphere": [
+    {
+      "producer": [
+        "Assembler"
+      ],
+      "in": [
+        {
+          "name": "Particle Container",
+          "num": 1
+        },
+        {
+          "name": "Processor",
+          "num": 1
+        }
+      ],
+      "out": [
+        {
+          "name": "Annihilation Constraint Sphere",
+          "num": 1
+        }
+      ]
+    }
+  ],
+  "Titanium Glass": [
+    {
+      "producer": [
+        "Assembler"
+      ],
+      "in": [
+        {
+          "name": "Glass",
+          "num": 2
+        },
+        {
+          "name": "Titanium Ingot",
+          "num": 2
+        },
+        {
+          "name": "Water",
+          "num": 2
+        }
+      ],
+      "out": [
+        {
+          "name": "Titanium Glass",
+          "num": 2
+        }
+      ]
+    }
+  ],
+  "Particle Broadband": [
+    {
+      "producer": [
+        "Assembler"
+      ],
+      "in": [
+        {
+          "name": "Carbon Nanotube",
+          "num": 2
+        },
+        {
+          "name": "Crystal Silicon",
+          "num": 2
+        },
+        {
+          "name": "Plastic",
+          "num": 1
+        }
+      ],
+      "out": [
+        {
+          "name": "Particle Broadband",
+          "num": 1
+        }
+      ]
+    }
+  ],
+  "Logistics Drone": [
+    {
+      "producer": [
+        "Assembler"
+      ],
+      "in": [
+        {
+          "name": "Iron Ingot",
+          "num": 5
+        },
+        {
+          "name": "Processor",
+          "num": 2
+        },
+        {
+          "name": "Thruster",
+          "num": 2
+        }
+      ],
+      "out": [
+        {
+          "name": "Logistics Drone",
+          "num": 1
+        }
+      ]
+    }
+  ],
+  "Unipolar Magnet": [],
+  "Foundation": [
+    {
+      "producer": [
+        "Assembler"
+      ],
+      "in": [
+        {
+          "name": "Stone",
+          "num": 3
+        },
+        {
+          "name": "Steel",
+          "num": 1
+        }
+      ],
+      "out": [
+        {
+          "name": "Foundation",
+          "num": 1
+        }
+      ]
+    }
+  ],
+  "Critical Photon": [],
+  "Particle Container": [
+    {
+      "producer": [
+        "Assembler"
+      ],
+      "in": [
+        {
+          "name": "Electromagnetic Turbine",
+          "num": 2
+        },
+        {
+          "name": "Copper Ingot",
+          "num": 2
+        },
+        {
+          "name": "Graphene",
+          "num": 2
+        }
+      ],
+      "out": [
+        {
+          "name": "Particle Container",
+          "num": 1
+        }
+      ]
+    },
+    {
+      "producer": [
+        "Assembler"
+      ],
+      "in": [
+        {
+          "name": "Unipolar Magnet",
+          "num": 10
+        },
+        {
+          "name": "Copper Ingot",
+          "num": 2
+        }
+      ],
+      "out": [
+        {
+          "name": "Particle Container",
+          "num": 1
+        }
+      ]
+    }
+  ],
+  "Super-Magnetic Ring": [
+    {
+      "producer": [
+        "Assembler"
+      ],
+      "in": [
+        {
+          "name": "Electromagnetic Turbine",
+          "num": 2
+        },
+        {
+          "name": "Magnet",
+          "num": 3
+        },
+        {
+          "name": "Energetic Graphite",
+          "num": 1
+        }
+      ],
+      "out": [
+        {
+          "name": "Super-Magnetic Ring",
+          "num": 1
+        }
+      ]
+    }
+  ],
+  "Graviton Lens": [
+    {
+      "producer": [
+        "Assembler"
+      ],
+      "in": [
+        {
+          "name": "Diamond",
+          "num": 4
+        },
+        {
+          "name": "Strange Matter",
+          "num": 1
+        }
+      ],
+      "out": [
+        {
+          "name": "Graviton Lens",
+          "num": 1
+        }
+      ]
+    }
+  ],
+  "Space Warper": [
+    {
+      "producer": [
+        "Assembler"
+      ],
+      "in": [
+        {
+          "name": "Graviton Lens",
+          "num": 1
+        }
+      ],
+      "out": [
+        {
+          "name": "Space Warper",
+          "num": 1
+        }
+      ]
+    },
+    {
+      "producer": [
+        "Assembler"
+      ],
+      "in": [
+        {
+          "name": "Gravity Matrix",
+          "num": 1
+        }
+      ],
+      "out": [
+        {
+          "name": "Space Warper",
+          "num": 8
+        }
+      ]
+    }
+  ],
+  "Plane Filter": [
+    {
+      "producer": [
+        "Assembler"
+      ],
+      "in": [
+        {
+          "name": "Casimir Crystal",
+          "num": 1
+        },
+        {
+          "name": "Titanium Glass",
+          "num": 2
+        }
+      ],
+      "out": [
+        {
+          "name": "Plane Filter",
+          "num": 1
+        }
+      ]
+    }
+  ],
+  "Quantum Chip": [
+    {
+      "producer": [
+        "Assembler"
+      ],
+      "in": [
+        {
+          "name": "Processor",
+          "num": 2
+        },
+        {
+          "name": "Plane Filter",
+          "num": 2
+        }
+      ],
+      "out": [
+        {
+          "name": "Quantum Chip",
+          "num": 1
+        }
+      ]
+    }
+  ],
+  "Logistics Vessel": [
+    {
+      "producer": [
+        "Assembler"
+      ],
+      "in": [
+        {
+          "name": "Titanium Alloy",
+          "num": 10
+        },
+        {
+          "name": "Processor",
+          "num": 10
+        },
+        {
+          "name": "Reinforced Thruster",
+          "num": 2
+        }
+      ],
+      "out": [
+        {
+          "name": "Logistics Vessel",
+          "num": 1
+        }
+      ]
+    }
+  ],
+  "Log": [],
+  "Electromagnetic Matrix": [
+    {
+      "producer": [
+        "Research Facility"
+      ],
+      "in": [
+        {
+          "name": "Magnetic Coil",
+          "num": 1
+        },
+        {
+          "name": "Circuit Board",
+          "num": 1
+        }
+      ],
+      "out": [
+        {
+          "name": "Electromagnetic Matrix",
+          "num": 1
+        }
+      ]
+    }
+  ],
+  "Energy Matrix": [
+    {
+      "producer": [
+        "Research Facility"
+      ],
+      "in": [
+        {
+          "name": "Energetic Graphite",
+          "num": 2
+        },
+        {
+          "name": "Hydrogen",
+          "num": 2
+        }
+      ],
+      "out": [
+        {
+          "name": "Energy Matrix",
+          "num": 1
+        }
+      ]
+    }
+  ],
+  "Structure Matrix": [
+    {
+      "producer": [
+        "Research Facility"
+      ],
+      "in": [
+        {
+          "name": "Diamond",
+          "num": 1
+        },
+        {
+          "name": "Titanium Crystal",
+          "num": 1
+        }
+      ],
+      "out": [
+        {
+          "name": "Structure Matrix",
+          "num": 1
+        }
+      ]
+    }
+  ],
+  "Information Matrix": [
+    {
+      "producer": [
+        "Research Facility"
+      ],
+      "in": [
+        {
+          "name": "Processor",
+          "num": 2
+        },
+        {
+          "name": "Particle Broadband",
+          "num": 1
+        }
+      ],
+      "out": [
+        {
+          "name": "Information Matrix",
+          "num": 1
+        }
+      ]
+    }
+  ],
+  "Gravity Matrix": [
+    {
+      "producer": [
+        "Research Facility"
+      ],
+      "in": [
+        {
+          "name": "Graviton Lens",
+          "num": 1
+        },
+        {
+          "name": "Quantum Chip",
+          "num": 1
+        }
+      ],
+      "out": [
+        {
+          "name": "Gravity Matrix",
+          "num": 1
+        }
+      ]
+    }
+  ],
+  "Universe Matrix": [
+    {
+      "producer": [
+        "Research Facility"
+      ],
+      "in": [
+        {
+          "name": "Electromagnetic Matrix",
+          "num": 1
+        },
+        {
+          "name": "Energy Matrix",
+          "num": 1
+        },
+        {
+          "name": "Structure Matrix",
+          "num": 1
+        },
+        {
+          "name": "Information Matrix",
+          "num": 1
+        },
+        {
+          "name": "Gravity Matrix",
+          "num": 1
+        },
+        {
+          "name": "Antimatter",
+          "num": 1
+        }
+      ],
+      "out": [
+        {
+          "name": "Universe Matrix",
+          "num": 1
+        }
+      ]
+    }
+  ],
+  "Solar Sail": [
+    {
+      "producer": [
+        "Assembler"
+      ],
+      "in": [
+        {
+          "name": "Graphene",
+          "num": 1
+        },
+        {
+          "name": "Photon Combiner",
+          "num": 1
+        }
+      ],
+      "out": [
+        {
+          "name": "Solar Sail",
+          "num": 2
+        }
+      ]
+    }
+  ],
+  "Frame Material": [
+    {
+      "producer": [
+        "Assembler"
+      ],
+      "in": [
+        {
+          "name": "Carbon Nanotube",
+          "num": 4
+        },
+        {
+          "name": "Titanium Alloy",
+          "num": 1
+        },
+        {
+          "name": "High-Purity Silicon",
+          "num": 1
+        }
+      ],
+      "out": [
+        {
+          "name": "Frame Material",
+          "num": 1
+        }
+      ]
+    }
+  ],
+  "Dyson Sphere Component": [
+    {
+      "producer": [
+        "Assembler"
+      ],
+      "in": [
+        {
+          "name": "Frame Material",
+          "num": 3
+        },
+        {
+          "name": "Solar Sail",
+          "num": 3
+        },
+        {
+          "name": "Processor",
+          "num": 3
+        }
+      ],
+      "out": [
+        {
+          "name": "Dyson Sphere Component",
+          "num": 1
+        }
+      ]
+    }
+  ],
+  "Small Carrier Rocket": [
+    {
+      "producer": [
+        "Assembler"
+      ],
+      "in": [
+        {
+          "name": "Dyson Sphere Component",
+          "num": 2
+        },
+        {
+          "name": "Deuteron Fuel Rod",
+          "num": 2
+        },
+        {
+          "name": "Quantum Chip",
+          "num": 2
+        }
+      ],
+      "out": [
+        {
+          "name": "Small Carrier Rocket",
+          "num": 1
+        }
+      ]
+    }
+  ],
+  "Plant Fuel": []
+}

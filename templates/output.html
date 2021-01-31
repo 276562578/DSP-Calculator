@@ -1,0 +1,18 @@
+<html>
+<body>
+{% for result in results %}
+    <p>In producer:</p><p>
+    {% for i in result["producer"] %}
+        <img src="/static/icon/{{ i }}.png" title="{{ i }}">
+    {% endfor %}</p>
+    <p>you need item:</p>
+    {% for m in result["in"] %}
+        <p><img src="/static/icon/{{ m["name"] }}.png" title="{{ m["name"] }}">{{ m["num"] }}</p>
+    {% endfor %}
+    <p>you will get:</p>
+    {% for n in result["out"] %}
+        <p><img src="/static/icon/{{ n["name"] }}.png" title="{{ n["name"] }}">{{ n["num"] }}</p>
+    {% endfor %}
+{% endfor %}
+</body>
+</html>

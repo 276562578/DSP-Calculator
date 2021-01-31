@@ -1,0 +1,277 @@
+<html>
+<head><title>DSP Calculator</title>
+</head>
+<body>
+<form action="get_item_in" method="post">
+    <p>Which item do you want:</p>
+    <table>
+        <tbody>
+        <tr>
+            <td><label><input name="item_out" type="radio" value="Iron Ore"/><img src="/static/icon/Iron Ore.png"
+                                                                                  title="Iron Ore"/>
+            </label></td>
+            <td><label><input name="item_out" type="radio" value="Copper Ore"/><img src="/static/icon/Copper Ore.png"
+                                                                                    title="Copper Ore"/>
+            </label></td>
+            <td><label><input name="item_out" type="radio" value="Stone Ore"/><img src="/static/icon/Stone Ore.png"
+                                                                                   title="Stone Ore"/>
+            </label></td>
+            <td><label><input name="item_out" type="radio" value="Coal Ore"/><img src="/static/icon/Coal Ore.png"
+                                                                                  title="Coal Ore"/>
+            </label></td>
+            <td><label><input name="item_out" type="radio" value="Silicon Ore"/><img src="/static/icon/Silicon Ore.png"
+                                                                                     title="Silicon Ore"/>
+            </label></td>
+            <td><label><input name="item_out" type="radio" value="Titanium Ore"/><img
+                    src="/static/icon/Titanium Ore.png" title="Titanium Ore"/>
+            </label></td>
+            <td><label><input name="item_out" type="radio" value="Water"/><img src="/static/icon/Water.png"
+                                                                               title="Water"/>
+            </label></td>
+            <td><label><input name="item_out" type="radio" value="Crude Oil"/><img src="/static/icon/Crude Oil.png"
+                                                                                   title="Crude Oil"/>
+            </label></td>
+            <td><label><input name="item_out" type="radio" value="Hydrogen"/><img src="/static/icon/Hydrogen.png"
+                                                                                  title="Hydrogen"/>
+            </label></td>
+            <td><label><input name="item_out" type="radio" value="Deuterium"/><img src="/static/icon/Deuterium.png"
+                                                                                   title="Deuterium"/>
+            </label></td>
+            <td><label><input name="item_out" type="radio" value="Antimatter"/><img src="/static/icon/Antimatter.png"
+                                                                                    title="Antimatter"/>
+            </label></td>
+            <td><label><input name="item_out" type="radio" value="Kimberlite Ore"/><img
+                    src="/static/icon/Kimberlite Ore.png" title="Kimberlite Ore"/>
+            </label></td>
+        </tr>
+        <tr>
+            <td><label><input name="item_out" type="radio" value="Iron Ingot"/><img src="/static/icon/Iron Ingot.png"
+                                                                                    title="Iron Ingot"/>
+            </label></td>
+            <td><label><input name="item_out" type="radio" value="Copper Ingot"/><img
+                    src="/static/icon/Copper Ingot.png" title="Copper Ingot"/>
+            </label></td>
+            <td><label><input name="item_out" type="radio" value="Stone"/><img src="/static/icon/Stone.png"
+                                                                               title="Stone"/>
+            </label></td>
+            <td><label><input name="item_out" type="radio" value="Energetic Graphite"/><img
+                    src="/static/icon/Energetic Graphite.png" title="Energetic Graphite"/>
+            </label></td>
+            <td><label><input name="item_out" type="radio" value="High-Purity Silicon"/><img
+                    src="/static/icon/High-Purity Silicon.png" title="High-Purity Silicon"/>
+            </label></td>
+            <td><label><input name="item_out" type="radio" value="Titanium Ingot"/><img
+                    src="/static/icon/Titanium Ingot.png" title="Titanium Ingot"/>
+            </label></td>
+            <td><label><input name="item_out" type="radio" value="Sulfuric Acid"/><img
+                    src="/static/icon/Sulfuric Acid.png" title="Sulfuric Acid"/>
+            </label></td>
+            <td><label><input name="item_out" type="radio" value="Refined Oil"/><img src="/static/icon/Refined Oil.png"
+                                                                                     title="Refined Oil"/>
+            </label></td>
+            <td><label><input name="item_out" type="radio" value="Hydrogen Fuel Rod"/><img
+                    src="/static/icon/Hydrogen Fuel Rod.png" title="Hydrogen Fuel Rod"/>
+            </label></td>
+            <td><label><input name="item_out" type="radio" value="Deuteron Fuel Rod"/><img
+                    src="/static/icon/Deuteron Fuel Rod.png" title="Deuteron Fuel Rod"/>
+            </label></td>
+            <td><label><input name="item_out" type="radio" value="Antimatter Fuel Rod"/><img
+                    src="/static/icon/Antimatter Fuel Rod.png" title="Antimatter Fuel Rod"/>
+            </label></td>
+            <td><label><input name="item_out" type="radio" value="Fractal Silicon"/><img
+                    src="/static/icon/Fractal Silicon.png" title="Fractal Silicon"/>
+            </label></td>
+        </tr>
+        <tr>
+            <td><label><input name="item_out" type="radio" value="Magnet"/><img src="/static/icon/Magnet.png"
+                                                                                title="Magnet"/>
+            </label></td>
+            <td><label><input name="item_out" type="radio" value="Magnetic Coil"/><img
+                    src="/static/icon/Magnetic Coil.png" title="Magnetic Coil"/>
+            </label></td>
+            <td><label><input name="item_out" type="radio" value="Glass"/><img src="/static/icon/Glass.png"
+                                                                               title="Glass"/>
+            </label></td>
+            <td><label><input name="item_out" type="radio" value="Diamond"/><img src="/static/icon/Diamond.png"
+                                                                                 title="Diamond"/>
+            </label></td>
+            <td><label><input name="item_out" type="radio" value="Crystal Silicon"/><img
+                    src="/static/icon/Crystal Silicon.png" title="Crystal Silicon"/>
+            </label></td>
+            <td><label><input name="item_out" type="radio" value="Titanium Alloy"/><img
+                    src="/static/icon/Titanium Alloy.png" title="Titanium Alloy"/>
+            </label></td>
+            <td><label><input name="item_out" type="radio" value="Fire Ice"/><img src="/static/icon/Fire Ice.png"
+                                                                                  title="Fire Ice"/>
+            </label></td>
+            <td><label><input name="item_out" type="radio" value="Plastic"/><img src="/static/icon/Plastic.png"
+                                                                                 title="Plastic"/>
+            </label></td>
+            <td><label><input name="item_out" type="radio" value="Organic Crystal"/><img
+                    src="/static/icon/Organic Crystal.png" title="Organic Crystal"/>
+            </label></td>
+            <td><label><input name="item_out" type="radio" value="Graphene"/><img src="/static/icon/Graphene.png"
+                                                                                  title="Graphene"/>
+            </label></td>
+            <td><label><input name="item_out" type="radio" value="Thruster"/><img src="/static/icon/Thruster.png"
+                                                                                  title="Thruster"/>
+            </label></td>
+            <td><label><input name="item_out" type="radio" value="Optical Grating Crystal"/><img
+                    src="/static/icon/Optical Grating Crystal.png" title="Optical Grating Crystal"/>
+            </label></td>
+        </tr>
+        <tr>
+            <td><label><input name="item_out" type="radio" value="Steel"/><img src="/static/icon/Steel.png"
+                                                                               title="Steel"/>
+            </label></td>
+            <td><label><input name="item_out" type="radio" value="Circuit Board"/><img
+                    src="/static/icon/Circuit Board.png" title="Circuit Board"/>
+            </label></td>
+            <td><label><input name="item_out" type="radio" value="Prism"/><img src="/static/icon/Prism.png"
+                                                                               title="Prism"/>
+            </label></td>
+            <td><label><input name="item_out" type="radio" value="Electric Motor"/><img
+                    src="/static/icon/Electric Motor.png" title="Electric Motor"/>
+            </label></td>
+            <td><label><input name="item_out" type="radio" value="Microcrystalline Component"/><img
+                    src="/static/icon/Microcrystalline Component.png" title="Microcrystalline Component"/>
+            </label></td>
+            <td><label> <img src="/static/icon/Blank.png" title="Blank"/>
+            </label></td>
+            <td><label><input name="item_out" type="radio" value="Casimir Crystal"/><img
+                    src="/static/icon/Casimir Crystal.png" title="Casimir Crystal"/>
+            </label></td>
+            <td><label><input name="item_out" type="radio" value="Strange Matter"/><img
+                    src="/static/icon/Strange Matter.png" title="Strange Matter"/>
+            </label></td>
+            <td><label><input name="item_out" type="radio" value="Titanium Crystal"/><img
+                    src="/static/icon/Titanium Crystal.png" title="Titanium Crystal"/>
+            </label></td>
+            <td><label><input name="item_out" type="radio" value="Carbon Nanotube"/><img
+                    src="/static/icon/Carbon Nanotube.png" title="Carbon Nanotube"/>
+            </label></td>
+            <td><label><input name="item_out" type="radio" value="Reinforced Thruster"/><img
+                    src="/static/icon/Reinforced Thruster.png" title="Reinforced Thruster"/>
+            </label></td>
+            <td><label><input name="item_out" type="radio" value="Spiniform Stalagmite Crystal"/><img
+                    src="/static/icon/Spiniform Stalagmite Crystal.png" title="Spiniform Stalagmite Crystal"/>
+            </label></td>
+        </tr>
+        <tr>
+            <td><label><input name="item_out" type="radio" value="Gear"/><img src="/static/icon/Gear.png" title="Gear"/>
+            </label></td>
+            <td><label><input name="item_out" type="radio" value="Plasma Exciter"/><img
+                    src="/static/icon/Plasma Exciter.png" title="Plasma Exciter"/>
+            </label></td>
+            <td><label><input name="item_out" type="radio" value="Photon Combiner"/><img
+                    src="/static/icon/Photon Combiner.png" title="Photon Combiner"/>
+            </label></td>
+            <td><label><input name="item_out" type="radio" value="Electromagnetic Turbine"/><img
+                    src="/static/icon/Electromagnetic Turbine.png" title="Electromagnetic Turbine"/>
+            </label></td>
+            <td><label><input name="item_out" type="radio" value="Processor"/><img src="/static/icon/Processor.png"
+                                                                                   title="Processor"/>
+            </label></td>
+            <td><label> <img src="/static/icon/Blank.png" title="Blank"/>
+            </label></td>
+            <td><label> <img src="/static/icon/Blank.png" title="Blank"/>
+            </label></td>
+            <td><label><input name="item_out" type="radio" value="Annihilation Constraint Sphere"/><img
+                    src="/static/icon/Annihilation Constraint Sphere.png" title="Annihilation Constraint Sphere"/>
+            </label></td>
+            <td><label><input name="item_out" type="radio" value="Titanium Glass"/><img
+                    src="/static/icon/Titanium Glass.png" title="Titanium Glass"/>
+            </label></td>
+            <td><label><input name="item_out" type="radio" value="Particle Broadband"/><img
+                    src="/static/icon/Particle Broadband.png" title="Particle Broadband"/>
+            </label></td>
+            <td><label><input name="item_out" type="radio" value="Logistics Drone"/><img
+                    src="/static/icon/Logistics Drone.png" title="Logistics Drone"/>
+            </label></td>
+            <td><label><input name="item_out" type="radio" value="Unipolar Magnet"/><img
+                    src="/static/icon/Unipolar Magnet.png" title="Unipolar Magnet"/>
+            </label></td>
+        </tr>
+        <tr>
+            <td><label><input name="item_out" type="radio" value="Foundation"/><img src="/static/icon/Foundation.png"
+                                                                                    title="Foundation"/>
+            </label></td>
+            <td><label><input name="item_out" type="radio" value="Critical Photon"/><img
+                    src="/static/icon/Critical Photon.png" title="Critical Photon"/>
+            </label></td>
+            <td><label><input name="item_out" type="radio" value="Particle Container"/><img
+                    src="/static/icon/Particle Container.png" title="Particle Container"/>
+            </label></td>
+            <td><label><input name="item_out" type="radio" value="Super-Magnetic Ring"/><img
+                    src="/static/icon/Super-Magnetic Ring.png" title="Super-Magnetic Ring"/>
+            </label></td>
+            <td><label><input name="item_out" type="radio" value="Graviton Lens"/><img
+                    src="/static/icon/Graviton Lens.png" title="Graviton Lens"/>
+            </label></td>
+            <td><label> <img src="/static/icon/Blank.png" title="Blank"/>
+            </label></td>
+            <td><label> <img src="/static/icon/Blank.png" title="Blank"/>
+            </label></td>
+            <td><label><input name="item_out" type="radio" value="Space Warper"/><img
+                    src="/static/icon/Space Warper.png" title="Space Warper"/>
+            </label></td>
+            <td><label><input name="item_out" type="radio" value="Plane Filter"/><img
+                    src="/static/icon/Plane Filter.png" title="Plane Filter"/>
+            </label></td>
+            <td><label><input name="item_out" type="radio" value="Quantum Chip"/><img
+                    src="/static/icon/Quantum Chip.png" title="Quantum Chip"/>
+            </label></td>
+            <td><label><input name="item_out" type="radio" value="Logistics Vessel"/><img
+                    src="/static/icon/Logistics Vessel.png" title="Logistics Vessel"/>
+            </label></td>
+            <td><label><input name="item_out" type="radio" value="Log"/><img src="/static/icon/Log.png" title="Log"/>
+            </label></td>
+        </tr>
+        <tr>
+            <td><label><input name="item_out" type="radio" value="Electromagnetic Matrix"/><img
+                    src="/static/icon/Electromagnetic Matrix.png" title="Electromagnetic Matrix"/>
+            </label></td>
+            <td><label><input name="item_out" type="radio" value="Energy Matrix"/><img
+                    src="/static/icon/Energy Matrix.png" title="Energy Matrix"/>
+            </label></td>
+            <td><label><input name="item_out" type="radio" value="Structure Matrix"/><img
+                    src="/static/icon/Structure Matrix.png" title="Structure Matrix"/>
+            </label></td>
+            <td><label><input name="item_out" type="radio" value="Information Matrix"/><img
+                    src="/static/icon/Information Matrix.png" title="Information Matrix"/>
+            </label></td>
+            <td><label><input name="item_out" type="radio" value="Gravity Matrix"/><img
+                    src="/static/icon/Gravity Matrix.png" title="Gravity Matrix"/>
+            </label></td>
+            <td><label><input name="item_out" type="radio" value="Universe Matrix"/><img
+                    src="/static/icon/Universe Matrix.png" title="Universe Matrix"/>
+            </label></td>
+            <td><label> <img src="/static/icon/Blank.png" title="Blank"/>
+            </label></td>
+            <td><label><input name="item_out" type="radio" value="Solar Sail"/><img src="/static/icon/Solar Sail.png"
+                                                                                    title="Solar Sail"/>
+            </label></td>
+            <td><label><input name="item_out" type="radio" value="Frame Material"/><img
+                    src="/static/icon/Frame Material.png" title="Frame Material"/>
+            </label></td>
+            <td><label><input name="item_out" type="radio" value="Dyson Sphere Component"/><img
+                    src="/static/icon/Dyson Sphere Component.png" title="Dyson Sphere Component"/>
+            </label></td>
+            <td><label><input name="item_out" type="radio" value="Small Carrier Rocket"/><img
+                    src="/static/icon/Small Carrier Rocket.png" title="Small Carrier Rocket"/>
+            </label></td>
+            <td><label><input name="item_out" type="radio" value="Plant Fuel"/><img src="/static/icon/Plant Fuel.png"
+                                                                                    title="Plant Fuel"/>
+            </label></td>
+        </tr>
+        </tbody>
+    </table>
+    <label>
+        <input name="out_num" type="text" value="1"/>
+    </label>
+    <label>
+        <input type="submit" value="提交"/>
+    </label>
+</form>
+</body>
+</html>
