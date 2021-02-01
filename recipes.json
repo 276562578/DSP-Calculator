@@ -118,7 +118,7 @@
   "Deuterium": [
     {
       "producer": [
-        "Particle Collider",
+        "Miniature Particle Collider",
         "Fractionator"
       ],
       "in": [
@@ -136,7 +136,7 @@
     },
     {
       "producer": [
-        "Particle Collider",
+        "Miniature Particle Collider",
         "Fractionator"
       ],
       "in": [
@@ -156,7 +156,7 @@
   "Antimatter": [
     {
       "producer": [
-        "Particle Collider"
+        "Miniature Particle Collider"
       ],
       "in": [
         {
@@ -912,7 +912,7 @@
   "Strange Matter": [
     {
       "producer": [
-        "Particle Collider"
+        "Miniature Particle Collider"
       ],
       "in": [
         {
